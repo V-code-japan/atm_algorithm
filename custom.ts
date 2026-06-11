@@ -14,7 +14,7 @@ enum MyEnum {
 /**
  * Custom blocks
  */
-//% weight=100 color=#0fbc11 icon=""
+//% weight=100 color=#0fbc11 icon=""
 namespace ATM {
     /**
      * TODO: describe your function here
@@ -22,6 +22,10 @@ namespace ATM {
      * @param s describe parameter here, eg: "Hello"
      * @param e describe parameter here
      */
+
+    //% block="プレイヤーがお金をもっている"
+    let hasMoney: boolean;
+    
     //% block
     export function foo(n: number, s: string, e: MyEnum): void {
         // Add code here
